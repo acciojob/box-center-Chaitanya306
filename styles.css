@@ -6,11 +6,20 @@ div{
 	background-color:lightblue;
 	border:2px solid black;
 	color:purple;
-	position:relative;
-	margin-top:50%;
-	margin-left:50%;
+	position:absolute;
+	top:50%;
+	left:50%;
 	transform:translate(-50%,-50%);
 	
-	text-align:center;
+	
 }
-
+p{
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+}
